@@ -1,0 +1,26 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+
+# Local variable files (often contain environment-specific or sensitive values)
+terraform.tfvars
+*.auto.tfvars
+*.auto.tfvars.json
+
+# CLI config files (can contain credentials)
+.terraformrc
+terraform.rc
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform dependency lock file (recommended to COMMIT)
+# .terraform.lock.hcl
+
